@@ -51,7 +51,9 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li></li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Подробнее
+            </button>
           </div>
         </div>
       </div>
@@ -68,7 +70,9 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li></li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#lesson2">
+              Подробнее
+            </button>
           </div>
         </div>
       </div>
@@ -85,7 +89,9 @@
             <ul class="list-unstyled mt-3 mb-4">
               <li></li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#lesson3">
+              Подробнее
+            </button>
           </div>
         </div>
       </div>
@@ -141,111 +147,63 @@
         </div>
       </div>
 
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Урок 7</h4>
-            Правовое регулирование занятости и трудоустройства
-            
-          </div>
-          <div class="card-body">
-            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Урок 8</h4>   
-Трудовой договор
-<div class=" text-white">.</div>
-          </div>
-          <div class="card-body">
-            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Урок 9</h4>
-            Рабочее время и время отдыха
-            <div class=" text-white">.</div>
-          </div>
-          <div class="card-body">
-            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Урок 10</h4>
-            Заработная плата
-            <div class=" text-white">.</div>
-          </div>
-          <div class="card-body">
-            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Урок 11</h4>
-            Виды ответственности работников и работодателей
-            
-          </div>
-          <div class="card-body">
-            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Урок 12</h4>
-            Трудовые споры
-            <div class=" text-white">.</div>
-          </div>
-          <div class="card-body">
-            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
-            <ul class="list-unstyled mt-3 mb-4">
-              <li></li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Подробнее</button>
-          </div>
-        </div>
-      </div>
-
 
     </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Урок 1</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
+            <div class="display-6 text-center">Система и источники права</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Начать читать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="lesson2" tabindex="-1" aria-labelledby="lesson2label" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Урок 2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="lesson2" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
+            <div class="display-6 text-center">Правовое регулирование экономических отношений</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Начать читать</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
+    <div class="modal fade" id="lesson3" tabindex="-1" aria-labelledby="lesson3label" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Урок 3</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="lesson3" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="pic/lesson.jpg" alt="img-thumbnail"  class="w-100">
+            <div class="display-6 text-center">Правовое положение субъектов предпринимательской деятельности</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Начать читать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </main>
   
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
